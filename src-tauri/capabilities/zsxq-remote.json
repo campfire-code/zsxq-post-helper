@@ -1,0 +1,10 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "zsxq-remote",
+  "description": "知识星球窗口：只允许向应用主窗口发送事件（用来回传发帖步骤的结果），不能读写文件、不能调用其它命令",
+  "windows": ["zsxq"],
+  "remote": {
+    "urls": ["https://wx.zsxq.com/*", "https://*.zsxq.com/*"]
+  },
+  "permissions": ["core:event:allow-emit"]
+}

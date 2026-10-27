@@ -1,0 +1,13 @@
+{
+  "id": "c36",
+  "slug": "zsxq-post-helper",
+  "name": "知识星球发帖助手",
+  "version": "0.1.0",
+  "repo": "campfire-code/zsxq-post-helper",
+  "license": "MIT",
+  "ui": {
+    "layout": "e",
+    "palette": "orange"
+  },
+  "upstream": null
+}

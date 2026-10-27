@@ -1,0 +1,45 @@
+/* 知识星球发帖助手：只用 kit.css 的变量。类名统一以 zp- 开头。 */
+.zp-root { flex: 1; min-height: 0; display: flex; flex-wrap: wrap; gap: 14px; align-items: stretch; position: relative; }
+.zp-side { flex: 1 1 280px; max-width: 360px; min-width: 260px; padding: 14px; display: flex; flex-direction: column; gap: 16px; }
+.zp-main { flex: 999 1 400px; min-width: 0; display: flex; flex-direction: column; gap: 12px; }
+.zp-sec { display: grid; gap: 8px; align-content: start; }
+.zp-det > summary { cursor: pointer; }
+.zp-p { margin: 0; font-size: .9em; line-height: 1.6; }
+.zp-btns { display: flex; gap: 6px; flex-wrap: wrap; }
+.zp-btns .k-btn { height: 30px; padding: 0 10px; }
+.zp-f { display: grid; gap: 3px; font-size: .9em; }
+.zp-f > span { color: var(--muted); }
+.zp-row { display: flex; align-items: center; gap: 8px; font-size: .93em; }
+.zp-log { list-style: none; margin: 0; padding: 0; max-height: 150px; overflow: auto; font-size: .82em; color: var(--muted); display: grid; gap: 2px; word-break: break-all; }
+.zp-warn { padding: 8px 12px; border-radius: var(--radius-lg); border: 1px solid var(--line); background: var(--primary-soft); font-size: .88em; line-height: 1.6; }
+.zp-tabs { align-self: flex-start; }
+.zp-tabs button { padding: 5px 14px; }
+.zp-card { padding: 12px 14px; display: grid; gap: 8px; align-content: start; }
+.zp-card-hd { display: flex; align-items: center; justify-content: space-between; gap: 8px; flex-wrap: wrap; }
+.zp-card-hd .k-btn { height: 30px; padding: 0 10px; }
+.zp-count { font-size: .88em; }
+.zp-editor { min-height: 150px; resize: vertical; line-height: 1.7; font-family: inherit; }
+.zp-preview { min-height: 150px; max-height: 420px; padding: 4px 6px; }
+.zp-md { line-height: 1.8; }
+.zp-md p { margin: 0 0 .7em; white-space: pre-wrap; }
+.zp-md .zp-h { font-weight: 700; }
+.zp-md .zp-h1 { font-size: 1.35em; }
+.zp-md .zp-h2 { font-size: 1.15em; }
+.zp-md blockquote { margin: 0 0 .7em; padding: 2px 12px; border-left: 3px solid var(--line); color: var(--muted); white-space: pre-wrap; }
+.zp-md pre { margin: 0 0 .7em; padding: 8px 10px; background: var(--primary-soft); border-radius: 8px; overflow: auto; }
+.zp-md code { background: var(--primary-soft); padding: 0 4px; border-radius: 4px; }
+.zp-md ul, .zp-md ol { margin: 0 0 .7em; padding-left: 1.4em; }
+.zp-link { color: var(--primary); text-decoration: underline; }
+.zp-imgs { display: flex; flex-wrap: wrap; gap: 10px; }
+.zp-img { margin: 0; width: 132px; display: grid; gap: 4px; position: relative; }
+.zp-img img { width: 132px; height: 100px; object-fit: contain; border-radius: 8px; border: 1px solid var(--line); background: var(--surface); }
+.zp-img figcaption { font-size: .8em; color: var(--muted); }
+.zp-x { position: absolute; top: 4px; right: 4px; background: var(--surface); border-radius: 999px; }
+.zp-hover { outline: 2px dashed var(--primary); }
+.zp-pub { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.zp-ops { display: flex; align-items: center; gap: 6px; white-space: nowrap; }
+.zp-modal { position: fixed; inset: 0; background: rgba(0, 0, 0, .4); display: grid; place-items: center; z-index: 20; padding: 16px; }
+.zp-dialog { width: min(560px, 100%); max-height: 90vh; padding: 16px; display: grid; gap: 10px; }
+.zp-dialog h3 { margin: 0; }
+.zp-dialog p { margin: 0; }
+.zp-final { margin: 0; max-height: 280px; overflow: auto; padding: 10px; background: var(--primary-soft); border-radius: 8px; white-space: pre-wrap; font-family: inherit; line-height: 1.7; }
